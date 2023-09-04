@@ -6,8 +6,8 @@ from src.search_space.search_space import SearchSpace
 from src.utilities.obstacle_generation import generate_random_obstacles
 from src.utilities.plotting import Plot
 
-X_dimensions = np.array([(0, 1000), (0, 1000)])  # dimensions of Search Space
-x_init = (0, 0)  # starting location
+X_dimensions = np.array([(0, 1000), (0, 1000)])  # dimensions of Search Space.
+x_init = (0, 0)  # starting location.
 x_goal = (1000, 1000)  # goal location
 
 Q = np.array([(8, 4)])  # length of tree edges
